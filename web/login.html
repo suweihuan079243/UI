@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <head>
+        <meta charset="UTF-8">
+        <title>登录注册</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+<body>
+<!--背景-->
+<div class="wel" id="background-3"></div>
+<!--左右两边云-->
+<div class="wel" id="box">
+    <div class="box-1 lefp"></div>
+    <div class="box-1">
+        <div class="righp"></div>
+    </div>
+</div>
+<!--荧光点点-->
+<div class="wel" id="git"></div>
+<!--登录注册表-->
+<div class="wel" id="from">
+    <div class="box-2 le-1">
+        <form id="indexform" name="indexForm" action="checkLogin.jsp" method="post">
+            <div class="flrg">
+                <h3>登录</h3>
+                <div class="a">
+                    <!--<label>账号：</label>-->
+                    <input type="text" name="username" class="in-1" placeholder="请输入账号">
+                </div>
+                <div class="a">
+                    <!--<label>密码：</label>-->
+                    <input type="password"name="password" class="in-1" placeholder="请输入密码">
+                </div>
+                <div class="a">
+                    <input type="submit" value="登录">
+                </div>
+                <div class="a">
+                    <div class="hr"></div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="box-2 le-2">
+        <form action="checkRegist.jsp" method="post">
+            <div class="flrg-1">
+                <h3>注册</h3>
+                <div class="a">
+                    <input type="text" name="username" class="in-1" placeholder="您的用户名">
+                </div>
+                <div class="a">
+                    <input type="password" name="password"  class="in-1" placeholder="输入密码">
+                </div>
+                <div class="a">
+                    <input type="submit" value="注册" >
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+<div style="text-align:center;">
+</div>
+</body>
+</html>
